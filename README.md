@@ -1,27 +1,51 @@
-# React + TypeScript + Vite
+# react-modal-portal-example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![LEIAME.md](https://img.shields.io/badge/-Leia%20em%20Portugu%C3%AAs-brightgreen?style=for-the-badge)](./LEIAME.md)
 
-Currently, two official plugins are available:
+Click [here](https://react-icons.github.io/react-icons/) to access the demo website 🙂
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Summary
+- [🧾 About](#-about)
+- [🚀 Main technologies](#-main-technologies)
+- [💻 Usage](#-usage)
 
-## Expanding the ESLint configuration
+## 🧾 About
+This is just an example of how to use portals to render a modal in React.<br />
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+You'll see the DOM like this (before rendering the modal):<br />
+![image](https://github.com/victorbadaro/react-modal-portal-example/assets/9096344/db7a0552-6dab-4f00-81e9-55f688504356)<br />
 
-- Configure the top-level `parserOptions` property like this:
+...and then (after rendering the modal):<br />
+![image](https://github.com/victorbadaro/react-modal-portal-example/assets/9096344/d7f38153-e5d4-4297-b69a-742d483f9e4d)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## 🚀 Main technologies
+- [React](https://react.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [React Icons](https://react-icons.github.io/react-icons/)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+_(You can see all the dependencies in the [package.json](./package.json) file)_
+
+## 💻 Usage
+1. Clone the project (you'll need a [personal access token](https://docs.github.com/pt/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls)):
+   ```bash
+   $ git clone https://github.com/victorbadaro/react-modal-portal-example
+   ```
+
+2. Access its directory:
+   ```bash
+   $ cd react-modal-portal-example
+   ```
+
+3. Install its dependencies:
+   ```bash
+   $ yarn
+   # feel free to use another package manager, but you might want use yarn once there's already a yarn.lock file in the root directory
+   ```
+
+4. Start the server by running the `dev` script:
+   ```bash
+   $ yarn dev
+   ```
+---
+
+<p align="center">This project was created and developed with ❤ by <a href="https://github.com/victorbadaro">Victor Badaró</a></p>
