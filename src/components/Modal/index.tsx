@@ -1,9 +1,10 @@
+import { createPortal } from 'react-dom';
 import { ModalProps } from './types';
 
 import styles from './styles.module.css';
 
 export function Modal({ isOpen, onClose }: ModalProps) {
-	return isOpen ? (
+	return isOpen ? createPortal(
 		<div className={styles.modal}>
 			<div className={styles.content}>
 				<button
@@ -14,6 +15,7 @@ export function Modal({ isOpen, onClose }: ModalProps) {
 					close
 				</button>
 			</div>
-		</div>
+		</div>,
+		document.body
 	) : null;
 }
