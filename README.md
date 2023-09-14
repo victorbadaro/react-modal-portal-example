@@ -2,7 +2,7 @@
 
 [![LEIAME.md](https://img.shields.io/badge/-Leia%20em%20Portugu%C3%AAs-brightgreen?style=for-the-badge)](./LEIAME.md)
 
-Click [here](https://react-icons.github.io/react-icons/) to access the demo website 🙂
+Click [here](https://react-modal-portal-example.netlify.app/) to access the demo website 🙂
 
 ## Summary
 - [🧾 About](#-about)

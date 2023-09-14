@@ -2,6 +2,8 @@
 
 [![README.md](https://img.shields.io/badge/-Read%20in%20English-brightgreen?style=for-the-badge)](./README.md)
 
+Clique [aqui](https://react-modal-portal-example.netlify.app/) para acessar o website 🙂
+
 ## Índice
 - [🧾 Sobre o projeto](#-sobre-o-projeto)
 - [🚀 Principais tecnologias](#-principais-tecnologias)
