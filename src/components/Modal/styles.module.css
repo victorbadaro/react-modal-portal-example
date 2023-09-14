@@ -23,5 +23,17 @@
 	position: absolute;
 	top: 16px;
 	right: 16px;
+	padding: 0;
 	background-color: transparent;
+}
+
+.close-button svg {
+	width: 24px;
+	height: 24px;
+	transform: rotate(45deg);
+	transition: transform 200ms;
+}
+
+.close-button:hover svg {
+	transform: rotate(135deg);
 }

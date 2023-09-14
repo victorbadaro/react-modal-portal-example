@@ -1,4 +1,5 @@
 import { createPortal } from 'react-dom';
+import { FiPlus } from 'react-icons/fi';
 import { ModalProps } from './types';
 
 import styles from './styles.module.css';
@@ -11,8 +12,9 @@ export function Modal({ isOpen, onClose }: ModalProps) {
 					type="button"
 					className={styles['close-button']}
 					onClick={onClose}
+					title="close"
 				>
-					close
+					<FiPlus />
 				</button>
 			</div>
 		</div>,
